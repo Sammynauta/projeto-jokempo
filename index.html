@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Jokempo</title>
+</head>
+<body>
+    <div class="title">
+        <h1>JOKEMPO</h1>
+        <span>projeto feito para fim estudantil</span>
+    </div>
+    <div class="container">
+        <div class="score">
+            <p>Computador : 
+                <span id="computer_score">0</span>
+            </p>
+            <p>
+                Você :
+                <span id="user_score">0</span>
+            </p>
+        </div>
+        <div class="weapons">
+            <button onclick="checker('pedra')">
+                <i class="far fa-hand-rock"></i>
+            </button>
+            <button onclick="checker('papel')">
+                <i class="far fa-hand-paper"></i>
+            </button>
+            <button onclick="checker('tesoura')">
+                <i class="far fa-hand-scissors"></i>
+            </button>
+        </div>
+        <div class="details">
+            <p id="user_choice"></p>
+            <p id="comp_choice"></p>
+            <p id="result"></p>
+        </div>
+    </div>
+    <ul class="socialmidia">
+        <a href="https://www.instagram.com/sam_diogo/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/samuel-diogo-769274195/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Sammynauta"><i class="fab fa-github"></i></a>
+    </ul>
+    <!--Script-->
+    <script src="./js/script.js"></script> 
+</body>
+</html>
